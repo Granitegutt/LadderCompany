@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.4",
+	"Category": "Game",
+	"Description": "Ladder Company - a 2-4 player cooperative first-person firefighting game built around one shared physical ladder. Higher Together.",
+	"Modules": [
+		{
+			"Name": "LadderCompany",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

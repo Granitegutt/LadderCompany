@@ -1,0 +1,43 @@
+# Ladder Company - Unreal Engine 5 .gitignore
+# Only project source, config, content, and documentation are tracked.
+# Engine-generated and machine-local files are ignored.
+
+# Generated / build output
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+Script/
+
+# Visual Studio / Rider / VS Code project files (regenerated from .uproject)
+.vs/
+.vscode/
+.idea/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.xcodeproj/
+*.xcworkspace/
+
+# Unreal generated project glue
+*.generated.h
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Crash / log artifacts
+*.log
+
+# Packaged builds
+/Packaged/
+/Builds/
+
+# Content should be tracked, but never these caches inside it
+Content/**/*.tmp

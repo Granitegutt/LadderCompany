@@ -1,0 +1,5 @@
+This file keeps the Content/ directory under version control while it is empty.
+
+Content/ holds Unreal binary assets (.uasset / .umap). Those are tracked via Git
+LFS (see ../.gitattributes). No assets exist yet - they arrive with the ladder
+prototype. Remove this file once real content is added.
